@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'BrittanySignature';
+  src: url('./../public/fonts/BrittanySignature.ttf');
+}
+
+@font-face {
+  font-family: 'NeueMachina-Light';
+  src: url('./../public/fonts/NeueMachina-Light.otf');
+}
+
+@font-face {
+  font-family: 'NeueMachina-Regular';
+  src: url('./../public/fonts/NeueMachina-Regular.otf');
+}
+
+@font-face {
+  font-family: 'NeueMachina-Ultrabold';
+  src: url('./../public/fonts/NeueMachina-Ultrabold.otf');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+*,
+html,
+body {
+  font-family: 'NeueMachina-Regular', sans-serif;
+}
+
+.bs {
+  font-family: 'BrittanySignature', sans-serif;
+}
+
+.nml {
+  font-family: 'NeueMachina-Light', sans-serif;
+}
+
+.nmr {
+  font-family: 'NeueMachina-Regular', sans-serif;
+}
+
+.nmb {
+  font-family: 'NeueMachina-Ultrabold', sans-serif;
+}
